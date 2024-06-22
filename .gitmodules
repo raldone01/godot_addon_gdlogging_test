@@ -1,0 +1,6 @@
+[submodule "addons/addon_loader"]
+	path = addons/addon_loader
+	url = git@github.com:raldone01/godot_addon_addon_loader.git
+[submodule "addons/gdlogging"]
+	path = addons/gdlogging
+	url = git@github.com:raldone01/godot_addon_gdlogging.git

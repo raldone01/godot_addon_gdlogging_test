@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="test_gdlogging"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Log="*res://addons/gdlogging/funcs/logger.gd"
+
+[dotnet]
+
+project/assembly_name="test_gdlogging"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/addon_loader/plugin.cfg", "res://addons/gdlogging/plugin.cfg")
